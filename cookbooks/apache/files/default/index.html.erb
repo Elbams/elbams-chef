@@ -1,0 +1,8 @@
+<html>
+  <body>
+    <h1> Hello World!  Elbams <%= node["fqdn] %> ! </h1>
+	<p>
+	This Server has <%= node["memory"] ["total"].to_i/1024 %> MB
+	</p>
+  </body>
+</html>
